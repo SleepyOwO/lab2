@@ -7,7 +7,6 @@ public class Main {
         Pattern reg = Pattern.compile("^#([a-fA-F0-9]{6})");
 
         String test = in.next();
-
         Matcher match = reg.matcher(test);
         Boolean res = match.matches();
 

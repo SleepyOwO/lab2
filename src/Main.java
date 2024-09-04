@@ -10,6 +10,7 @@ public class Main {
 
         Matcher match = reg.matcher(test);
         System.out.println("Результат: ");
+
         Boolean res = match.matches();
 
         System.out.println(res);

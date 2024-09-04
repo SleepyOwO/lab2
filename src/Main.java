@@ -6,12 +6,11 @@ public class Main {
         Scanner in = new Scanner(System.in);
         Pattern reg = Pattern.compile("^#([a-fA-F0-9]{6})");
 
-        while(true){
-            String test = in.next();
+        String test = in.next();
 
-            Matcher match = reg.matcher(test);
-            Boolean res = match.matches();
-            System.out.println(res);
-        }
+        Matcher match = reg.matcher(test);
+        Boolean res = match.matches();
+
+        System.out.println(res);
     }
 }

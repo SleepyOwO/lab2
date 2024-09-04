@@ -9,6 +9,7 @@ public class Main {
         String test = in.next();
 
         Matcher match = reg.matcher(test);
+        System.out.println("Результат: ");
         Boolean res = match.matches();
 
         System.out.println(res);

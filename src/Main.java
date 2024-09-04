@@ -11,7 +11,6 @@ public class Main {
 
             Matcher match = reg.matcher(test);
             Boolean res = match.matches();
-
             System.out.println(res);
         }
     }
